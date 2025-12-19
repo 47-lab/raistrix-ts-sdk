@@ -1,5 +1,5 @@
 import { z } from "zod";
-import type { ClientConfig, EntrypointResponse, Entrypoint } from "../types";
+import type { ClientConfig, EntrypointResponse, Entrypoint } from "../types.js";
 
 const entrypointSchema = z.object({
   name: z.string().min(1, "Entrypoint name is required"),
