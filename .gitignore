@@ -1,0 +1,13 @@
+/node_modules
+/dist
+/build
+/coverage
+/logs
+/tmp
+/temp
+/test-results
+/test-coverage
+/test-logs
+/test-tmp
+/test-temp
+/test-results
